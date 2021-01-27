@@ -34,3 +34,22 @@ export const Container = styled.div<ContainerProps>`
     }
   }
 `;
+
+export const Button = styled.div`
+  width: calc(100% + 30px);
+  height: 30px;
+
+  color: #fff;
+  background-color: #ff872c;
+  border-radius: 5px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2ms;
+
+  &:hover {
+    background-color: #ff990c;
+  }
+`;
